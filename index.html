@@ -1,76 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Yasser's Portfolio</title>
-        <style>
-            div {
-                text-align: center;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasser Elnafarawy</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Niconne&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
 
-            button {
-                background-color: rgba(121, 36, 201, 0.705);
-                color: rgba(0, 0, 0, 0.74);
-                padding: 0px 10px;
-                border-radius: 10px;
-                text-shadow: 2px 2px 5px ;
-                box-shadow: 
-                    inset 2px 2px 3px whitesmoke,
-                    inset -2px -2px 3px rgb(219, 9, 9);
-            }
-            button:hover {
-                background-color: rgba(101, 33, 160, 0.705) ;
-            }
-            button:active {
-                box-shadow: 
-                inset 2px 2px 3px rgb(219, 9, 9),
-                inset -2px -2px 3px whitesmoke;
-            }
-            footer {
-                text-align: center;
-                margin-top: 10%;
-            }
-        </style>
-    </head>
-    <body>
-        <div>
-            <h1>Yasser Elnafarawy's Portfolio</h1>
-            <button type="button">
-                <h2>I am a Web Developer</h2>
-            </button>
+<body>
+
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/Dynamic 'YE' (2).png" height="35" alt="YE logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#who">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="#contact">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <section id="header">
+        <div class="container-fluid bg-1 text-center py-5">
+            <h1 class="pb-5 ">I'm Yasser</h1>
+            <img src="./assets/Yasser.png" class="border border-4 border-success" style="display:inline" alt="Bird" width="200" height="250">
+            <h3 class="pt-5">A web developer</h3>
         </div>
-        <hr size="3"/>
-        <h3>
-           <a href="./public/Movie.html">Movie Ranking Project</a>
-        </h3> 
-           <img src="./assets/images/Best Movie.png" height="200" alt="movie-ranking">
-        <h3>
-            <a href="./public/Birthday.html">Birthday Invite Project</a>
-        </h3> 
-            <img src="./assets/images/Birthday.png" height="200" alt="birthday-invite">
-        <hr size="3"/>
-        <h4>
-            <a href="./public/contact.html">Contact Me</a>
-            <a href="./public/about.html">About Me</a>
-        </h4>
-        <footer>
-            Copyright © Yasser-Elnafarawy
+    </section>
+
+
+    <section id="who" class="bg-2">
+        <div class="container-fluid  text-center pb-5 px-lg-5  ">
+            <img src="./assets/four-dots.svg" alt="four-dots" width="20px" class="mt-2 mb-5">
+            <h3 class="margin pt-3 py-2">Who Am I ?</h3>
+            <p class="pt-5 px-lg-5">I'm a pharmacist who loves programming and I'm an excellent trainee in it💗<br>
+            I started learning to code when I was 14 years old because I love everything about computers. However, for some reasons, I studied pharmacy and became very good at it. After taking a long way as a pharmacist i want to spend my time pursuing my passion for web development. <br> 
+            <span class="fw-bold text-primary-emphasis ">So now it's time to get back to coding.</span></p>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <div class="container-fluid bg-3 text-center">    
+            <img src="./assets/four-dots.svg" alt="four-dots" width="20px" class="mt-2 mb-5">
+            <h3 class="margin pb-5">My Skills</h3>
+            <div class="row">
+                <div class="col-lg-4 pb-5 px-5 text-center ">
+                    
+                    <img src="./assets/web-design.webp" class="mb-3" style="width:97%" alt="web-design">
+                    <h4>Design & Development</h4>
+                    <p >I fall in love with everything dealing with computer. So I quit my job as a Pharmacist and started my passion for web development.</p>
+                    
+                </div>
+                <div class="col-lg-4 pb-5 px-5 text-center "> 
+                    
+                    <img src="./assets/MOS.avif" class="mb-3" style="width:98%" alt="microsoft office suite">
+                    <h4>Microsoft Office suite</h4>
+                    <p>I started learning microsoft office suite when i was 9 years old. Over time, I have gained a wealth of experience in it. </p>
+                    
+                </div>
+                <div class="col-lg-4 pb-5 px-5 text-center  "> 
+                    
+                    <img src="./assets/medications.webp" class="mb-3" style="width:97%" alt="medications">
+                    <h4>Over The Counter "OTC"</h4>
+                    <p>I'm excellent at diagnosing diseases and prescribing medications to patients.</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="projects">
+        <div class="container-fluid text-center pb-5">
+            <img src="./assets/four-dots.svg" alt="four-dots" width="20px" class="mt-2 mb-5">
+            <h3 class="">My projects</h3>
+            <div class="d-flex justify-content-center">
+                <div id="carouselExampleAutoplaying" class="carousel slide mt-3 mb-1" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <a href="./projects/11.3 TinDog Project/index.html" target="_blank"><img src="./assets/Tin-dog.png" class="d-block w-100" alt="Tin-dog"></a>
+                        </div>
+                        <div class="carousel-item">
+                        <a href="./projects/7.3 CSS Flag Project/index.html" target="_blank"><img src="./assets/FLAG.png" class="d-block w-100" alt="flag of Laos"></a>
+                        </div>
+                        <div class="carousel-item">
+                        <a href="./projects/10.3 Mondrian Project/index.html" target="_blank"><img src="./assets/MONDRIAN.png" class="d-block w-100" alt="MONDRIAN"></a>
+                        </div>
+                        <div class="carousel-item">
+                        <a href="./projects/8.4 Web Design Agency Project/index.html" target="_blank"><img src="./assets/WEB-AGENCY.png" class="d-block w-100" alt="web-design"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <p>Click on the images to open each project</p>
+        </div>
+
+    </section>
+
+    <section id="contact">
+    <div class="container-fluid bg-4 text-center">
+        <img src="./assets/four-dots.svg" alt="four-dots" width="20px" class="mt-2 mb-5">
+        <div class="d-flex justify-content-center ">
+            <div class="p-5 mb-5 text-center "> 
+                <img src="./assets/Dynamic 'YE' (2).png" alt="YE logo" height="50" class="pb-3"> 
+                <h2 class="text-body-emphasis pb-2">Feel free to shoot me a message!</h2> 
+                <p class="col-lg-8 mx-auto fs-5 pb-2">
+                 
+                </p> 
+                <div class="container-fluid gap-2 my-5"> 
+                    <div class="row">
+                        <div class="col-lg-1 col-0"></div>
+                        <button class=" col-xl-5 col-lg-5 col-12 me-lg-3 mb-lg-0 mb-3 align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                            <a href="./contact.html" class="contact-me" target="_blank">Contact Me
+                            <svg xmlns="http://www.w3.org/2000/svg"  height="20" fill="currentColor" class="bi bi-arrow-right ps-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg></a> 
+                        </button> 
+                        <button class=" col-lg-5 col-12 ms-lg-3 btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                            <a href="./About.html" class="about-me" target="_blank">About Me</a>
+                        </button> 
+                        
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    
+    <section id="footer">
+        
+        <footer class="container-fluid bg-5 text-center py-2">
+            <p> <span class="text-info">&#169; Yasser Elnafarawy. </span>All rights reserved. </p> 
         </footer>
-    </body>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" 
+        crossorigin="anonymous">
+    </script>
+</body>
 </html>
-<!-- TODO 1: Create the HTML Boilerplate -->
- 
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
